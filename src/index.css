@@ -1,0 +1,105 @@
+body {
+  margin: 40px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f2f2f2;
+  font-size: 1.2em;
+}
+
+.App {
+  max-width: 640px;
+  margin: 0 auto;
+}
+nav {
+  background: #772eff;
+  padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+nav h1 {
+  margin: 0;
+  margin-right: auto;
+}
+nav li {
+  display: inline-block;
+  margin: 0 0 0 16px;
+  cursor: pointer;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+label,
+label span {
+  display: block;
+  /* margin: 6px 0; */
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 0;
+  font-size: 1em;
+  /* border-left: 4px solid #772eff; */
+}
+span {
+  display: block;
+  overflow: hidden;
+  padding: 5px 0;
+}
+button {
+  background: #772eff;
+  color: #fff;
+  border: 0;
+  padding: 10px 50px;
+  font-size: 1em;
+}
+.book-list ul {
+  padding: 0;
+}
+/* .book-list li {
+  list-style-type: none;
+  padding: 10px;
+  background: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+} */
+.book-list li {
+  background: #fff;
+  margin: 10px 0;
+  /* border: 1px solid #f2f2f2; */
+  /* box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.1); */
+  padding: 0px 15px 0 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* border-left: 4px solid #772eff; */
+  /* height: 108px; */
+}
+.book-list .name {
+  color: #333;
+  font-size: 1em;
+  margin: 0px 10px 5px 0px;
+  padding: 5px 10px 5px 0px;
+  /* margin-left: auto;
+  margin-right: 40px; */
+}
+.book-list button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ddd;
+  color: #777;
+  border: none;
+  padding: 12px 8px;
+  text-align: center;
+  line-height: 0;
+  font-size: 0.9em;
+  cursor: pointer;
+}
