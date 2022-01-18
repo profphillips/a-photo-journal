@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <h1>My Reading List</h1>
+      <h1>My Photo Journal</h1>
       {authIsReady && (
         <ul>
           {user && (
