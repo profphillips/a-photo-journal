@@ -12,8 +12,8 @@ export default function BookList({ books }) {
       <ul>
         {books.map((book) => (
           <li key={book.id}>
-            <p>{book.photoUrl}</p>
-            <p className="name">{book.title} {book.id}</p>
+            <img src={book.photoUrl} />
+            <p className="name">{book.title}</p>
             <button onClick={() => handleClick(book.id)}>x</button>
           </li>
         ))}
